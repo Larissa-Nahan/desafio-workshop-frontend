@@ -1,47 +1,171 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Requinte Recepções</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- ============CABEÇALHO============= -->
     <header class="head">
-        <nav class="menu">
-            <div class="menu-itens">
-                <a href="" class="menu-item">Quem somos</a>
-                <a href="" class="menu-item">Fotos</a>
-                <img src="./assets/rr-logo.png" alt="" class="logo">
-                <a href="" class="menu-item">Serviços</a>
-                <a href="" class="menu-item">Contato</a>
-            </div>
-        </nav>
+      <nav class="menu">
+        <div class="menu-itens">
+          <a href="" class="menu-item">Home</a>
+          <a href="" class="menu-item">Quem somos</a>
+          <a href="" class="menu-item">Serviços</a>
+        </div>
+        <img src="./assets/rr-logo.png" alt="" class="logo" />
+        <div class="menu-itens">
+          <a href="" class="menu-item">Fotos</a>
+          <a href="" class="menu-item">Orçamento</a>
+          <a href="" class="menu-item">Contato</a>
+        </div>
+      </nav>
     </header>
 
     <main class="body">
-        <div class="content">
-            <img src="./assets/requinte_recepcoes.png" alt="" class="title">
-            <p class="description"></p>   <!-- H2? -->
-        </div>
+      <!-- ============HOME============= -->
+      <section class="home">
+        <!-- ADD JS : CARROSSEL -- -->
+        <img src="./assets/main-photos/foto.jpg" alt="" class="image" />
+      </section>
 
+      <!-- ============QUEM SOMOS============= -->
+      <section class="quem-somos">
+        <img src="./assets/requinte_recepcoes.png" alt="" class="title" />
+        <div class="content">
+          <div class="text-content">
+            <h3 class="subtitle">A partir de um sonho, a ideia se formou...</h3>
+            <p class="description">
+              &emsp;&emsp;Fundado em 8 de Novembro de 1986, o salão iniciou sua
+              atividade com locações de material, cursos de culinária e algumas
+              pequenas reuniões e festas familiares, o necessário para tornar o
+              local conhecido...
+            </p>
+            <p class="description">
+              &emsp;&emsp;Enfim, o nome tornou-se "badalado" e no dia 31 de
+              Dezembro de 1986, o Requinte Recepções teve sua inauguração com a
+              festa de Reveillon, tornando-se a primeira casa de festas de João
+              Pessoa!
+            </p>
+            <p class="description">
+              &emsp;&emsp;Desde então, com excelência e profissionalismo, o
+              Requinte está sempre inovando e provando que merece o mérito de
+              salão pioneiro com sua estrutura clássico-moderna.
+            </p>
+            <p class="description">
+              &emsp;&emsp;Com a disponibilidade de dois ambientes climatizados,
+              cardápios variados, decoração própria, entre outros pequenos
+              "segredinhos" que nos tornam tão especiais para nossos
+              clientes...!
+            </p>
+            <p class="description">
+              &emsp;&emsp;Então... Que tal conferir e descobrir o motivo pelo
+              qual firmamos a preferência de nossos contratantes quando o
+              assunto é festa?
+            </p>
+          </div>
+          <img src="./assets/place.jpg" alt="" class="the-place" />
+        </div>
+      </section>
+
+      <!-- ============SERVIÇOS============= -->
+      <section class="servicos">
+        <h3 class="subtitle">Serviços</h3>
+        <div class="row gap">
+          <div class="column">
+            <img class="icon" src="./assets/pin.png" alt="" />
+            <h4 class="service">Salão de festas</h4>
+            <p class="description services-description">
+              Alto padrão para surpreender os seus convidados. Nossa estrutura
+              comporta possui 2 andares que comportam de 50 a 400 pessoas em um
+              espaço 100% climatizado sempre com muito conforto e segurança que
+              só o Requinte Recepções pode oferecer.
+            </p>
+          </div>
+          <div class="column">
+            <img class="icon" src="./assets/pin.png" alt="" />
+            <h4 class="service">Decoração</h4>
+            <p class="description services-description">
+              Dispomos de uma equipe criativa e altamente qualificada para dar
+              um toque especial na decoração do seu evento, seja casamento,
+              aniversário, formatura e muito mais.
+            </p>
+          </div>
+          <div class="column">
+            <img class="icon" src="./assets/pin.png" alt="" />
+            <h4 class="service">Buffet</h4>
+            <p class="description services-description">
+              Variedade e sabores que surpreendem. Nosso buffet é muito completo
+              e atende aos mais diferentes gostos. Tudo para tornar o seu evento
+              ainda mais especial e inesquecível. Fale conosco e conheça o nosso menu.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============FOTOS============= -->
+      <section class="fotos">
+          <h3 class="subtitle">Fotos</h3>
+          <div class="column">
+              <div class="row">
+                  <img class="photo-grid" src="./assets/photos/foto1.jpg" alt="" />
+                  <img class="photo-grid" src="./assets/photos/foto3.jpg" alt="" />
+                  <img class="photo-grid" src="./assets/photos/foto3.jpg" alt="" />
+                  <img class="photo-grid" src="./assets/photos/foto4.jpg" alt="" />
+                </div>
+                <div class="row">
+                    <img class="photo-grid" src="./assets/photos/foto1.jpg" alt="" />
+                    <img class="photo-grid" src="./assets/photos/foto3.jpg" alt="" />
+                    <img class="photo-grid" src="./assets/photos/foto3.jpg" alt="" />
+                    <img class="photo-grid" src="./assets/photos/foto4.jpg" alt="" />
+          </div>
+          <div class="row">
+              <img class="photo-grid" src="./assets/photos/foto1.jpg" alt="" />
+              <img class="photo-grid" src="./assets/photos/foto3.jpg" alt="" />
+              <img class="photo-grid" src="./assets/photos/foto3.jpg" alt="" />
+              <img class="photo-grid" src="./assets/photos/foto4.jpg" alt="" />
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ORÇAMENTO============= -->
+    <section class="orcamento">
+        <h3 class="subtitle">Solicite um orçamento</h3>
+        <form class="form">
+            <input type="text" class="input-field" placeholder="Nome" required>
+            <input type="email" class="input-field" placeholder="E-mail" required>
+            <input type="text" class="input-field" placeholder="Telefone" required>
+            <input type="text" class="input-field" placeholder="Tipo de evento" required>
+            <input type="text" class="input-field" placeholder="Quantidade de convidade" required>
+            <input type="date" class="input-field" placeholder="Data" required>
+            <input type="text" class="input-field" placeholder="Observações">
+        </form>
+    </section>
+
+    
+    <!--    -- H2? --
+        
         <div class="box">
             <h3></h3>
             <input type="text" class="input-field" placeholder="nome">
             <input type="text" class="input-field" placeholder="email">
-            <button class="button">Enviar</button>
-        </div>
-         <img src="" alt="" class="image">   <!-- ADD JS : CARROSSEL -->
+                <button class="button">Enviar</button>
+            </div>
+            lt="" class="image">   -->
     </main>
 
-    <footer class="foot">
-        <div class="icons">
+    <!-- ============RODAPÉ============= -->
+    <!-- <footer class="foot"> -->
+    <!-- ESCONDER RODAPE ATE CHEGAR NO FIM -- -->
+    <!-- <div class="icons">
             <img src="./assets/facebook-icon.png" alt="" class="icon">
             <img src="./assets/instagram-icon.png" alt="" class="icon">
-        </div>
-    </footer>
-    
+        </div> -->
+    <!-- </footer> -->
+
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
