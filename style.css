@@ -1,87 +1,230 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;600&display=swap");
 
-*{
-
-}
-:root{
-
-}
-
-body{
-
+* {
+  font-family: "Hind", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
+:root {
+  --titulo: #84534c;
+}
+
+body {
+  margin-bottom: 1000px;
+}
+
+/* ============CABEÇALHO============= */
 /* CABECALHO */
-.head{
-
+.head {
+  background-color: rgb(194, 181, 181);
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 115px;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0 0 10px black;
+  color: white;
 }
 
 /* O NAV */
-.menu{
-
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* A JUNCAO DOS ITENS DO MENU */
-.menu-itens{
-
+.menu-itens {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* LOGO */
-.logo{
-
+.logo {
+  height: 90px;
+  width: auto;
+  padding-bottom: 25px;
 }
 
 /* CADA ITEM DO MENU */
-.menu-item{
-
+.menu-item {
+  padding: 41px 10px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 /* CORPO */
-.body{
-
+.body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-/* AREA COM O TITULO E DESCRIÇÃO */
-.content{
-
-}
-
-/* PARAGRAFO DE DESCRIÇÃO */
-.description{
-
-}
-
-/* BOX DOS INPUTS E BOTAO */
-.box{
-
-}
-
-/* INPUTS */
-.input-field{
-
-}
-
-/* BOTAO */
-.button{
-
+/* ============HOME============= */
+.home {
 }
 
 /* IMAGEM CARROSSEL */
-.image{
+.image {
+  margin-top: 1100px;
+  width: 100vw;
+  height: 110vh;
+}
 
+/* ============QUEM SOMOS============= */
+.quem-somos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+/* IMAGEM NOME */
+.title {
+  width: 40vw;
+  padding-bottom: 100px;
+}
+
+/* AREA COM SUBTITULO, DESCRICAO E IMAGEM */
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10vw;
+}
+
+/* AREA COM O SUBTITULO E DESCRIÇÃO */
+.text-content {
+  display: flex;
+  flex-direction: column;
+  /* text-align: justify; */
+  margin-left: 10vw;
+}
+
+/* SUBTITULO */
+.subtitle {
+  font-size: 4vh;
+  margin-bottom: 5px;
+  text-align: center;
+  color: var(--titulo);
+}
+
+.top {
+  text-align: unset;
+  margin-left: 100px;
+}
+
+.bottom {
+  text-align: unset;
+  margin-left: 350px;
+}
+
+/* PARAGRAFO DE DESCRIÇÃO */
+.description {
+  font-size: 2vh;
+  margin-top: 6px;
+  text-align: justify;
+}
+
+/* IMAGEM DO SALAO */
+.the-place {
+  margin-right: 10vw;
+  height: 50vh;
+}
+/* ============SERVIÇOS============= */
+.servicos {
+  background-color: aqua;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  height: 50px;
+  margin-top: 7vw;
+}
+
+.service {
+  font-size: 3vh;
+  color: var(--titulo);
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.gap {
+  gap: 200px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-description {
+  width: 400px;
+}
+
+/* ============FOTOS============= */
+.fotos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.photo-grid {
+  margin: 8px;
+  vertical-align: middle;
+  height: 25vh;
+  max-width: 20vw;
+}
+
+/* BOX DOS INPUTS E BOTAO */
+.box {
+}
+
+/* INPUTS */
+.input-field {
+}
+
+/* BOTAO */
+.button {
 }
 
 /* RODAPE */
-.foot{
-
-}
+/* .foot {
+  background-color: black;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px black;
+  color: white;
+} */
 
 /* DIV DOS ICONES DE FB E INSTAGRAM */
-.icons{
-
+.icons {
 }
 
 /* ICONES DE FB E INSTAGRAM */
-.icon{
-
+.icon {
 }
