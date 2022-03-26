@@ -1,6 +1,6 @@
 <!-- Title -->
 <p align="center">
-  <h2 align="center" style="font-size: 40px">Desafio Workshop Frontend </h2>
+  <h1 align="center" style="font-size: 60px">Desafio Workshop Frontend </h1>
 </p>
 
 ## Desafio
