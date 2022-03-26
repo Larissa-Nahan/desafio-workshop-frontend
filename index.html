@@ -11,23 +11,23 @@
     <!-- ============CABEÇALHO============= -->
     <header class="head">
       <nav class="menu">
-        <div class="menu-itens">
-          <a href="" class="menu-item">Home</a>
-          <a href="" class="menu-item">Quem somos</a>
-          <a href="" class="menu-item">Serviços</a>
-        </div>
+          <ul class="menu-itens">
+            <li><a href="#home" class="menu-item">Home</a></li>
+            <li><a href="#quem-somos" class="menu-item">Quem somos</a></li>
+            <li><a href="#servicos" class="menu-item">Serviços</a></li>
+          </ul>
         <img src="./assets/rr-logo.png" alt="" class="logo" />
-        <div class="menu-itens">
-          <a href="" class="menu-item">Fotos</a>
-          <a href="" class="menu-item">Orçamento</a>
-          <a href="" class="menu-item">Contato</a>
-        </div>
+        <ul class="menu-itens">
+          <li><a href="#fotos" class="menu-item">Fotos</a></li>
+          <li><a href="#orcamento" class="menu-item">Orçamento</a></li>
+          <li><a href="#contato" class="menu-item">Contato</a></li>
+        </ul>
       </nav>
     </header>
 
     <main class="body">
       <!-- ============HOME============= -->
-      <section class="home">
+      <section id="home" class="home">
         <div class="slideshow-container">
           <div class="mySlides fade">
           <img class="image" src="./assets/main-photos/foto1.jpg" />
@@ -51,7 +51,7 @@
       </section>
 
       <!-- ============QUEM SOMOS============= -->
-      <section class="quem-somos">
+      <section id="quem-somos" class="quem-somos">
         <img src="./assets/requinte_recepcoes.png" alt="" class="title" />
         <div class="content">
           <div class="text-content">
@@ -90,7 +90,7 @@
       </section>
 
       <!-- ============SERVIÇOS============= -->
-      <section class="servicos">
+      <section id="servicos" class="servicos">
         <h3 class="subtitle">Serviços</h3>
         <div class="row gap">
           <div class="column">
@@ -126,7 +126,7 @@
       </section>
 
       <!-- ============FOTOS============= -->
-      <section class="fotos">
+      <section id="fotos" class="fotos">
         <h3 class="subtitle">Fotos</h3>
         <div class="column">
           <div class="row">
@@ -151,7 +151,7 @@
       </section>
 
       <!-- ============ORÇAMENTO============= -->
-      <section class="orcamento">
+      <section id="orcamento" class="orcamento">
         <h3 class="subtitle">Solicite um orçamento</h3>
         <form class="form-budget">
           <input type="text" class="input-field" placeholder="Nome" required />
@@ -198,9 +198,9 @@
       </section>
 
       <!-- ============CONTATO============= -->
-      <section class="contato">
+    <section id="contato" class="contato">
         <h3 class="subtitle">Contato</h3>
-        <div class="algo">
+        <div class="contacts-box">
           <iframe
             class="map"
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d881.778132530667!2d-34.86742242213161!3d-7.1202600414623465!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xec3ebad10ebef952!2zUmVxdWludGUgUmVjZXDDp8O1ZXM!5e0!3m2!1sen!2sbr!4v1648268031494!5m2!1sen!2sbr"
@@ -227,7 +227,7 @@
                 alt=""
               />
               <p class="contact">
-                <strong>Instagram:</strong>@requinte_recepcoes
+                <strong>Instagram:</strong><a href="https://www.instagram.com/requinte_recepcoes/"> @requinte_recepcoes</a>
               </p>
             </div>
             <div class="contact">
@@ -237,7 +237,7 @@
                 alt=""
               />
               <p class="contact">
-                <strong>Facebook:</strong>@requinte.recepcoes.1
+                <strong>Facebook:</strong><a href="https://www.facebook.com/requinte.recepcoes.1/"> @requinte.recepcoes.1</a>
               </p>
             </div>
             <div class="contact">
@@ -258,7 +258,7 @@
 
     <!-- ============RODAPE============= -->
     <section class="footer">
-      <span>2022 Larissa Dantas. </span>
+      <span>2022 Larissa Dantas</span>
     </section>
 
     <script src="./script.js"></script>
