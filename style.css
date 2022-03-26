@@ -30,8 +30,11 @@ body {
   overflow: hidden;
   position: fixed;
   color: white;
-  box-shadow: 0 0 10px black;
   background-color: var(--menu);
+}
+
+.box-shadow{
+  box-shadow: 0 0 10px black;
 }
 
 /* NAV */
@@ -175,15 +178,15 @@ body {
 
 /* ============SERVIÇOS============= */
 .servicos {
-    gap: 7vh;
+  gap: 7vh;
 }
 
-.dark-background{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 100px 0;
-    background-color: var(--background-dark);
+.dark-background {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 0;
+  background-color: var(--background-dark);
 }
 
 /* ICONE DESCRITIVO */
@@ -241,7 +244,7 @@ body {
 /* ============ORÇAMENTO============= */
 
 /* FORMULARIO */
-.form-budget {
+.form {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -346,6 +349,7 @@ body {
 
 /* MAPA */
 .map {
+  border: 0;
   width: 600px;
   height: 400px;
   margin-right: 20px;
